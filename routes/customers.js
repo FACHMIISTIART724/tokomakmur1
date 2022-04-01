@@ -210,7 +210,7 @@ router.post("/add", authentication_mdl.is_login, function (req, res, next) {
 
 router.get("/add", authentication_mdl.is_login, function (req, res, next) {
   res.render("customer/add-customer", {
-    title: "Add New Customer",
+    title: "Tambah Produk",
     name: "",
     email: "",
     phone: "",
