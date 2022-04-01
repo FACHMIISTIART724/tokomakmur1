@@ -12,7 +12,7 @@ router.get("/", authentication_mdl.is_login, function (req, res, next) {
         if (err) var errornya = ("Error Selecting : %s ", err);
         req.flash("msg_error", errornya);
         res.render("customer/list", {
-          title: "Customers",
+          title: "Main Page",
           data: rows,
           session_store: req.session,
         });
