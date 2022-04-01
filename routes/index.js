@@ -1,6 +1,5 @@
 var express = require('express');
 var router = express.Router();
-var modul = require('../modul/modul');
 
 var session_store;
 /* GET home page. */
